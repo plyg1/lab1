@@ -11,7 +11,7 @@ int main() {
 	C = A;
 	SetConsoleOutputCP(1251);
 	SetConsoleCP(1251);
-	cout << " Çì³ííà A â Â: " << A << endl;
-	cout << " Çì³ííà Â â Ñ: " << B << endl;
-	cout << " Çì³ííà Ñ â À: " << C << endl;
+	cout << " Ã‡Ã¬Â³Ã­Ã­Ã  A Ã¢ Ã‚: " << A << endl;
+	cout << " Ã‡Ã¬Â³Ã­Ã­Ã  Ã‚ Ã¢ Ã‘: " << B << endl;
+	cout << " Ã‡Ã¬Â³Ã­Ã­Ã  Ã‘ Ã¢ Ã€: " << C << endl;
 }
