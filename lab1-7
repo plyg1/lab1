@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	//Begin7
+	double L, S, R;//змінні
+	const double pi = 3.14;// константа 
+	cout << "Enter R :";//введення
+	cin >> R;
+	//обчислення
+	L = 2 * pi * R;
+	S = pi * R * R;
+	cout << " L = " << L << endl;
+	cout << " S = " << S << endl;
+	return  0;
+}
