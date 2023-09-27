@@ -1,20 +1,21 @@
 #include <iostream>
 using namespace std;
-//Äàíî çì³íí³ A, B, C. Çì³íèòè ¿õ çíà÷åííÿ, ïåðåì³ñòèâøè âì³ñò A â B, B - â C, C - â A, ³ âèâåñòè íîâ³ çíà÷åííÿ çì³ííèõ A, B, C.
+//Дано змінні A, B, C. Змінити їх значення, перемістивши вміст A в B, B - в C, C - в A, і вивести нові значення змінних A, B, C.
 int main() {
 	//Begin 15
-	float A, B, C;//äåêëîðàö³ÿ
-	//ââåäåííÿ
+	float A, B, C, temp ;//деклорація
+	//введення
 	cout << "Enter A, B and C: ";
 	cin >> A >> B >> C;
-	//îá÷èñëåííÿ
+	//обчислення
+	temp = A;
 	A = B;
 	B = C;
-	C = A;
-	//âèâåäåííÿ 
+	C = temp ;
+	//виведення 
 	cout << "A = " << A << endl;
 	cout << "B = " << B << endl;
 	cout << "C = " << C << endl;
-	return;
+	return 0 ;
 
-}
+} 
